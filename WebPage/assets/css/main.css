@@ -179,14 +179,14 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #151019 url("images/bg.jpg") bottom left;
+		background: #151019 url("images/bg.jpg") center;
 		background-repeat: repeat-x;
 		height: 100%;
+		width: 100%;
 		left: 0;
 		opacity: 1;
 		position: fixed;
 		top: 0;
-		margin-top: 0px;
 	}
 
 	@-moz-keyframes bg {
@@ -663,22 +663,6 @@
 					display: none;
 				}
 
-/* Footer */
-
-	#footer {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		bottom: 0;
-		cursor: default;
-		height: 6em;
-		left: 0;
-		line-height: 8em;
-		position: absolute;
-		text-align: center;
-		width: 100%;
-	}
 
 /* Wide */
 
@@ -931,6 +915,9 @@
 		}
 
 	/* Header */
+		#header img {
+			width: 70%;
+		}
 
 		#header h1 {
 			font-size: 2.5em;
