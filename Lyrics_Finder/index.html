@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyric Finder</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+<body class="bg-light">
+    <div class="container px-5py-5">
+        <h2 class="text-center pb-3">Lyric Finder</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" class="form-control input-artist" placeholder="Name of Artist">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control input-song" placeholder="Name of Song">
+            </div>
+        </div>
+        <div class="text-center ">
+            <button class="btn btn-outline-success btn-lg mt-4 find-btn">Find Lyrics!</button>
+        </div>
+
+        <div class="text-center">
+            <div class="card text-white bg-info mb-3 mt-5 text-center">
+                <div class="card-header">Lyric Box</div>
+                <div class="card-body">
+                    <h5 class="card-title song-desc">Your quick lyric finder!</h5>
+                    <p class="card-text lyric-text">Simply type in the artist name and the song name,and get the lyrics!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-danger error-box" role="alert">
+            <h4 class="alert-heading text-center">Error!</h4>
+            <p class="text-center">Please recheck your input fields.</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src=" app.js"></script>
+</body>
+
+</html>

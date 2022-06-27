@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+}
+
+.error-box {
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, .2);
+}
