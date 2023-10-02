@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="shortcut icon" href="./assets/images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Ujjawal">Ujjawal Soni</h1>
+
+                    <p class="title">Student</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:ujjawal.soni1507@gmail.com" target="_blank"
+                                class="contact-link">ujjawal.soni1507@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+917014309223" class="contact-link">+91-70143-09223</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">July 15, 2002</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>DIT University, Dehradun</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://github.com/US2002" target=”_blank” class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/ujjawal-soni-1b6b671ba/" target=”_blank”
+                            class="social-link">
+                            <ion-icon name="logo-LinkedIn"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+        <div class="main-content">
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="index.html"><button class="navbar-link" data-nav-link>About</button></a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="resume.html"><button class="navbar-link" data-nav-link>Resume</button></a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="portfolio.html"><button class="navbar-link active" data-nav-link>Portfolio</button></a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="contact.html"><button class="navbar-link" data-nav-link>Contact</button></a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <article class="portfolio active" data-page="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Applications</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Web development</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Miscellaneous</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Cyber-Cipher</button>
+                        </li>
+
+
+                    </ul>
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-selecct-value>Select category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Applications</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Cyber-Cipher</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Web development</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Miscellaneous</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                            <a href="https://github.com/US2002/BlogVoyage" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/BlogVoyage.png" alt="blogs" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">BlogVoyage</h3>
+
+                                <p class="project-category">Application</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="cyber-cipher">
+                            <a href="https://github.com/US2002/FIM" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/FIM.png" alt="fim" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">File Integrity Manager</h3>
+
+                                <p class="project-category">Cyber-Cipher</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                            <a href="https://github.com/US2002/multiUserChatApp" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Multi-User Chatting App.png" alt="chat" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Multi-User Chatting App</h3>
+
+                                <p class="project-category">Android App</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                            <a href="https://github.com/US2002/Quiz_App" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Quiz_App.png" alt="Quizzy" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Quizzy</h3>
+
+                                <p class="project-category">Android App</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                            <a href="https://github.com/US2002/Temperature_Conversion" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/temperature.png" alt="Thermometer" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Temperature Convertor</h3>
+
+                                <p class="project-category">Android App</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                            <a href="https://github.com/US2002/calculator" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/calculator.png" alt="Calculator" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Calculator</h3>
+
+                                <p class="project-category">Android App</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                            <a href="https://github.com/US2002/RecipeApp" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/recipe.png" alt="RecipeGenie" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">RecipeGenie App</h3>
+
+                                <p class="project-category">Application</p>
+
+                            </a>
+                        </li>
+
+
+                        <li class="project-item  active" data-filter-item data-category="cyber-cipher">
+                            <a href="https://github.com/US2002/SSS" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Screenshot.png" alt="Cryptography" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Shamir Secret Sharing</h3>
+
+                                <p class="project-category">Shamir Algorithm</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                            <a href="https://github.com/US2002" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-4.png" alt="Expense" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Expense Analyser App</h3>
+
+                                <p class="project-category">Application</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="miscellaneous">
+                            <a href="https://us2002.github.io/Student_Enrollment_Form/index.html" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/forms_photo.png" alt="Form" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Student Enrollment Form</h3>
+
+                                <p class="project-category">DataBase Managment (JsonPowerDP)</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="#" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-2.png" alt="Portfolio" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">PortFolio Website</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                            <a href="https://github.com/US2002/Projects/tree/main/Visualiser" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Pathfinding.png" alt="Visualiser" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Pathfinding Visualiser</h3>
+
+                                <p class="project-category">Application</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://us2002.github.io/Links-and-Websites/WebPage/index.html" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-3.jpg.png" alt="WebPage" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Social Media Handler</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+        </div>
+
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
