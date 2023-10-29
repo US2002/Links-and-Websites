@@ -141,6 +141,14 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+form.addEventListener("submit", function (e) {
+  e.preventDefault(); // Prevent the default form submission
+
+  // Clear form inputs and textarea
+  form.reset();
+  formBtn.setAttribute("disabled", "");
+});
+
 
 
 // page navigation variables
